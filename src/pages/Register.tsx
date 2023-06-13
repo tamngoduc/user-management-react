@@ -107,7 +107,6 @@ const Register = () => {
                     fullWidth
                     label="Password"
                     error={!!error}
-                    autoFocus
                     onChange={onChange}
                   />
 
@@ -135,9 +134,8 @@ const Register = () => {
                     type="password"
                     margin="normal"
                     fullWidth
-                    label="Password"
+                    label="Confirm Password"
                     error={!!error}
-                    autoFocus
                     onChange={onChange}
                   />
 
