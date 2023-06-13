@@ -110,7 +110,6 @@ const Login = () => {
                     fullWidth
                     label="Password"
                     error={!!error}
-                    autoFocus
                     onChange={onChange}
                   />
 
