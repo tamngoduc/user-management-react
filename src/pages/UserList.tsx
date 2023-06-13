@@ -38,7 +38,7 @@ const UserList = () => {
 
   const totalPages = Math.ceil((userList?.length || 0) / itemsPerPage);
 
-  const handleChange = (event: React.ChangeEvent<unknown>, value: number) => {
+  const handleChange = (_event: React.ChangeEvent<unknown>, value: number) => {
     setCurrentPage(value);
   };
 
